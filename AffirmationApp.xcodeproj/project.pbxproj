@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1345D3882BF37F66001DC935 /* AffirmationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345D3872BF37F66001DC935 /* AffirmationAppApp.swift */; };
-		1345D38A2BF37F66001DC935 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345D3892BF37F66001DC935 /* ContentView.swift */; };
+		1345D3882BF37F66001DC935 /* AffirmationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345D3872BF37F66001DC935 /* AffirmationApp.swift */; };
+		1345D38A2BF37F66001DC935 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345D3892BF37F66001DC935 /* MainView.swift */; };
 		1345D38C2BF37F68001DC935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1345D38B2BF37F68001DC935 /* Assets.xcassets */; };
 		1345D3902BF37F68001DC935 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1345D38F2BF37F68001DC935 /* Preview Assets.xcassets */; };
 		1345D39A2BF37F69001DC935 /* AffirmationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345D3992BF37F69001DC935 /* AffirmationAppTests.swift */; };
 		1345D3A42BF37F69001DC935 /* AffirmationAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345D3A32BF37F69001DC935 /* AffirmationAppUITests.swift */; };
 		1345D3A62BF37F69001DC935 /* AffirmationAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345D3A52BF37F69001DC935 /* AffirmationAppUITestsLaunchTests.swift */; };
+		136EA9542BF6D00D005E773B /* AffirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136EA9532BF6D00D005E773B /* AffirmationView.swift */; };
+		13700DFF2BF38556004ED5D2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13700DFE2BF38556004ED5D2 /* WelcomeView.swift */; };
+		13700E012BF4E8FE004ED5D2 /* AffirmationSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13700E002BF4E8FE004ED5D2 /* AffirmationSteps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		1345D3842BF37F66001DC935 /* AffirmationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffirmationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1345D3872BF37F66001DC935 /* AffirmationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationAppApp.swift; sourceTree = "<group>"; };
-		1345D3892BF37F66001DC935 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1345D3872BF37F66001DC935 /* AffirmationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationApp.swift; sourceTree = "<group>"; };
+		1345D3892BF37F66001DC935 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1345D38B2BF37F68001DC935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1345D38D2BF37F68001DC935 /* AffirmationApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AffirmationApp.entitlements; sourceTree = "<group>"; };
 		1345D38F2BF37F68001DC935 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		1345D39F2BF37F69001DC935 /* AffirmationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffirmationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1345D3A32BF37F69001DC935 /* AffirmationAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationAppUITests.swift; sourceTree = "<group>"; };
 		1345D3A52BF37F69001DC935 /* AffirmationAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		136EA9532BF6D00D005E773B /* AffirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationView.swift; sourceTree = "<group>"; };
+		13700DFE2BF38556004ED5D2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		13700E002BF4E8FE004ED5D2 /* AffirmationSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationSteps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,14 @@
 		1345D3862BF37F66001DC935 /* AffirmationApp */ = {
 			isa = PBXGroup;
 			children = (
-				1345D3872BF37F66001DC935 /* AffirmationAppApp.swift */,
-				1345D3892BF37F66001DC935 /* ContentView.swift */,
+				1345D3872BF37F66001DC935 /* AffirmationApp.swift */,
+				1345D3892BF37F66001DC935 /* MainView.swift */,
+				13700DFE2BF38556004ED5D2 /* WelcomeView.swift */,
 				1345D38B2BF37F68001DC935 /* Assets.xcassets */,
 				1345D38D2BF37F68001DC935 /* AffirmationApp.entitlements */,
 				1345D38E2BF37F68001DC935 /* Preview Content */,
+				13700E002BF4E8FE004ED5D2 /* AffirmationSteps.swift */,
+				136EA9532BF6D00D005E773B /* AffirmationView.swift */,
 			);
 			path = AffirmationApp;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1345D38A2BF37F66001DC935 /* ContentView.swift in Sources */,
-				1345D3882BF37F66001DC935 /* AffirmationAppApp.swift in Sources */,
+				136EA9542BF6D00D005E773B /* AffirmationView.swift in Sources */,
+				13700E012BF4E8FE004ED5D2 /* AffirmationSteps.swift in Sources */,
+				1345D38A2BF37F66001DC935 /* MainView.swift in Sources */,
+				13700DFF2BF38556004ED5D2 /* WelcomeView.swift in Sources */,
+				1345D3882BF37F66001DC935 /* AffirmationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
